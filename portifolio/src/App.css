@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Julius;
+}
+@font-face {
+  font-family: Julius;
+  src: url(./Julius_Sans_One/JuliusSansOne-Regular.ttf);
+}
+
+#imgBanner {
+  width: 100%;
+  box-shadow: 0px 0px 10px 5px rgb(61, 61, 61);
+}

@@ -1,0 +1,32 @@
+.nav {
+  height: 120px;
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+}
+.btn-social {
+  background-color: rgb(253, 253, 253);
+  height: 40px;
+  width: 130px;
+  margin-left: 60px;
+  margin-right: 60px;
+  border-radius: 30px;
+  border: 1px solid black;
+  transition: all 0.3s linear;
+}
+.btn-social a {
+  text-decoration: none;
+}
+.btn-social:hover {
+  background-color: #4d4d4d;
+  color: aliceblue;
+  transition: all 0.3s linear;
+  border: none;
+}
+.btn-social {
+  background-color: rgb(253, 253, 253);
+  transition: all 0.3s;
+}

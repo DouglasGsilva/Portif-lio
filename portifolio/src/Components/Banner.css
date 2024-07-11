@@ -1,0 +1,16 @@
+.container-banner {
+  position: absolute;
+  background-color: transparent;
+  position: absolute;
+  top: 20%;
+  left: 34%;
+  text-align: center;
+}
+
+.nome {
+  text-transform: uppercase;
+  font-size: 40px;
+}
+.funcao {
+  font-size: 25px;
+}
