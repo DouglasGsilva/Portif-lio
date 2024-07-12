@@ -16,6 +16,8 @@
   max-width: 800px;
 }
 .btn-cv {
+  text-decoration: none;
+  color: black;
   width: 120px;
   height: 50px;
   display: flex;
@@ -23,8 +25,33 @@
   align-items: center;
   margin: auto;
   border-radius: 5px;
-  border: none;
+  border: 1px solid black;
   border-radius: 22px;
   border-radius: 50px;
-  background: #e0e0e0;
+  background-color: aliceblue;
+  font-size: 18px;
+}
+.btn-cv:hover {
+  border: 2px solid black;
+  font-size: 17px;
+}
+.container-about h1 {
+  margin-bottom: -75px;
+}
+.container-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.line {
+  width: 50px;
+  height: 3px;
+  background-color: black;
+}
+.oline {
+  width: 30px;
+  height: 3px;
+  background-color: black;
+  margin-left: 8px;
 }
