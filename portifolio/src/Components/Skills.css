@@ -97,19 +97,19 @@
   filter: drop-shadow(0px 8px 8px #00b9d7);
   margin-right: 15px;
 }
-#skill-size-angular {
+#skill-size-typescript {
   width: 120px;
   height: 120px;
   -webkit-filter: drop-shadow(0px 4px 4px #222);
   filter: drop-shadow(0px 5px 5px #222);
   margin-right: 15px;
 }
-#skill-size-angular:hover {
+#skill-size-typescript:hover {
   width: 125px;
   height: 125px;
   transition: all 0.1s linear;
   -webkit-filter: drop-shadow(0px 8px 8px #222);
-  filter: drop-shadow(0px 8px 8px #b71c1c);
+  filter: drop-shadow(0px 8px 8px #1980c4);
   margin-right: 15px;
 }
 

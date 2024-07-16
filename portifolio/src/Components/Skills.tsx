@@ -4,7 +4,7 @@ import css from "../img/linguagens/css.png";
 import js from "../img/linguagens/js.png";
 import react from "../img/linguagens/react.png";
 import tailwind from "../img/linguagens/Tailwind.png";
-import angular from "../img/linguagens/angular.png";
+import typescript from "../img/linguagens/typescript.png";
 const Skills = () => {
   return (
     <>
@@ -38,8 +38,8 @@ const Skills = () => {
         <a href="https://tailwindcss.com/" target="_blank">
           <img id="skill-size-tailwind" src={tailwind} alt="TAILWIND" />
         </a>
-        <a href="https://angular.dev/overview" target="_blank">
-          <img id="skill-size-angular" src={angular} alt="ANGULAR" />
+        <a href="https://www.typescriptlang.org/" target="_blank">
+          <img id="skill-size-typescript" src={typescript} alt="ANGULAR" />
         </a>
       </div>
     </>
