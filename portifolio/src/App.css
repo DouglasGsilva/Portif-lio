@@ -1,7 +1,4 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
   font-family: Julius;
 }
 @font-face {
@@ -12,4 +9,26 @@
 #imgBanner {
   width: 100%;
   box-shadow: 0px 0px 10px 5px rgb(61, 61, 61);
+}
+.btn {
+  width: 20px;
+  height: 20px;
+}
+.btn-fixed {
+  background-color: aqua;
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  visibility: hidden;
+  transition: all 0.1s linear;
+}
+.btn-fixed.visible {
+  visibility: visible;
+  transition: all 0.1s linear;
 }

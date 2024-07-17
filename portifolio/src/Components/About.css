@@ -30,10 +30,12 @@
   border-radius: 50px;
   background-color: aliceblue;
   font-size: 18px;
+  transition: all 0.1s linear;
 }
 .btn-cv:hover {
   border: 2px solid black;
   font-size: 17px;
+  transition: all 0.1s linear;
 }
 .container-about h1 {
   margin-bottom: -75px;
