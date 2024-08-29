@@ -3,16 +3,23 @@
   background-color: transparent;
   position: absolute;
   top: 20%;
-  left: 33%;
+  left: 15%;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.display-content {
+  justify-content: center;
+  align-items: center;
 }
 
 .nome {
   text-transform: uppercase;
-  font-size: 40px;
+  font-size: 50px;
 }
 .funcao {
-  font-size: 25px;
+  font-size: 30px;
 }
 
 #imgDG {

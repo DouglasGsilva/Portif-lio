@@ -1,9 +1,9 @@
 * {
-  font-family: Julius;
+  font-family: Mondapick;
 }
 @font-face {
-  font-family: Julius;
-  src: url(./Julius_Sans_One/JuliusSansOne-Regular.ttf);
+  font-family: Mondapick;
+  src: url(./assets/mondapick/Mondapick.ttf);
 }
 
 #imgBanner {
