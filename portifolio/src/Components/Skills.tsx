@@ -1,7 +1,7 @@
 import "./Skills.css";
 import html from "../img/linguagens/html.png";
 import css from "../img/linguagens/css.png";
-import js from "../img/linguagens/js.png";
+
 import react from "../img/linguagens/react.png";
 import tailwind from "../img/linguagens/Tailwind.png";
 import typescript from "../img/linguagens/typescript.png";
@@ -26,11 +26,8 @@ const Skills = () => {
         >
           <img id="skill-size-css" src={css} alt="CSS" />
         </a>
-        <a
-          href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Introduction"
-          target="_blank"
-        >
-          <img id="skill-size-js" src={js} alt="JS" />
+         <a href="https://www.typescriptlang.org/" target="_blank">
+          <img id="skill-size-typescript" src={typescript} alt="ANGULAR" />
         </a>
         <a href="https://react.dev/" target="_blank">
           <img id="skill-size-react" src={react} alt="REACT" />
@@ -38,9 +35,7 @@ const Skills = () => {
         <a href="https://tailwindcss.com/" target="_blank">
           <img id="skill-size-tailwind" src={tailwind} alt="TAILWIND" />
         </a>
-        <a href="https://www.typescriptlang.org/" target="_blank">
-          <img id="skill-size-typescript" src={typescript} alt="ANGULAR" />
-        </a>
+       
       </div>
     </>
   );

@@ -1,11 +1,9 @@
-import "./App.css";
-import imagemBaner from "./img/foto-banner.jpg";
 import { Navbar } from "./Components/Navbar";
 import Banner from "./Components/Banner";
 import About from "./Components/About";
 import Skills from "./Components/Skills";
 import Projects from "./Components/Projects/Projects";
-
+import imgbanner from "./img/foto-banner.jpg"
 function App() {
   const botao = document.querySelector(".btn-fixed");
 
@@ -19,9 +17,9 @@ function App() {
 
   return (
     <>
-      <Navbar />
-      <img id="imgBanner" src={imagemBaner} alt="imagembanner" />
-      <Banner />
+    <img className="absolute bg-center h-[450px] " src={imgbanner}/>
+        <Navbar />
+        <Banner />
       <About />
       <Skills />
       <Projects />

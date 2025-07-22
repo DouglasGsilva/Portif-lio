@@ -9,9 +9,9 @@ const About = () => {
         <div className="oline"></div>
       </div>
       <div className="content-about">
-        Sou um desenvolvedor Front End e gosto muito de programação, estou a
+        Sou um desenvolvedor Full Stack e gosto muito de programação, estou a
         procura de me especializar ainda mais na área e mostrar minhas
-        habilidades utilizando as tecnologias <b>HTML, CSS, javascript.</b>
+        habilidades utilizando as tecnologias <b>React, Typescript e Node js</b>
       </div>
 
       <a

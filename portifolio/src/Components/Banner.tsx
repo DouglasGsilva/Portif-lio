@@ -1,14 +1,18 @@
-import "./Banner.css";
 import imgDouglas from "../img/foto-final-portifolio.png";
+
 const Banner = () => {
   return (
     <>
-      <header className='container-banner'>
-        <div className='display-content'>
-          <div className='nome'>Douglas Gonçalo</div>
-          <div className='funcao'>Desenvolvedor Front End</div>
+      <header className="relative">
+        <div className=" justify-center m-0 p-0 flex">
+          <div className="content-center text-center m-0 p-0  sm:max-w-[2000px] ">
+            <h1 className="text-[26px] max-w-full">Douglas Gonçalo</h1>
+            <h2 className="text-[19px] max-w-full ">Desenvolvedor Full Stack</h2>
+          </div>
+          <div >
+            <img className="w-70 h-80 " src={imgDouglas} alt="" />
+          </div>
         </div>
-        <img id='imgDG' src={imgDouglas} alt='' />
       </header>
     </>
   );
