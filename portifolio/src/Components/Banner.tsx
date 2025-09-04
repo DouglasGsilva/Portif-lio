@@ -10,7 +10,7 @@ const Banner = () => {
             <h2 className="text-[19px] max-w-full ">Desenvolvedor Full Stack</h2>
           </div>
           <div >
-            <img className="w-70 h-80 " src={imgDouglas} alt="" />
+            <img className="w-65 h-80 " src={imgDouglas} alt="" />
           </div>
         </div>
       </header>
